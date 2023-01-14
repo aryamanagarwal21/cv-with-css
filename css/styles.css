@@ -1,0 +1,160 @@
+a{
+    color: #11999E;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #eaf6f6;
+}
+body{
+    color: #40514e;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+.bottom-cloud{
+    position: absolute;
+    left:250px;
+    bottom:300px;
+}
+.bottom-container{
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 14px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 0 19px #000000;
+    border: solid #11CDD4 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    border: solid #208979 1px;
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+ }
+.code-img{
+    width: 25%;
+    height:10%;
+    float: right;
+}
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+h1{
+    color: #66bfbf;
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+    font-size: 5.625rem;   /* 16px = 100% = 1em */
+}
+h2{
+    color: #66bfbf;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    /* font-weight: normal; */
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+h3{
+    color:#11999e;
+    font-family: 'Roboto', sans-serif;
+}
+hr{
+    /* border-style: none;
+    border-top-style:dotted;
+    border-color: grey;
+    border-width: 5px; */
+    border: dotted grey 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.intro{
+    width: 45%;
+    margin: auto;
+}
+.middle-container{
+    margin: 100px 0;
+}
+p{
+    line-height: 2;
+}
+.skill-row{
+    width:50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.top-cloud{
+    position: absolute;
+    top: 40px;
+    right: 300px;
+}
+.top-container{
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top:100px;
+}
+.tt-img{
+    width: 25%;
+    height:10%;
+    float: left ;
+    margin-right: 30px;
+}
+.web-d-image{
+    width: 25%;
+    height:10%;
+    float: left;
+    margin-right: 30px;
+}
+/*
+image right margin 30px
+image width 25% 
+float:left;
+
+2nd image on right and wrap text on left side.
+float:right;
+margin left 30px
+(opposite of previous one)
+
+
+below one only for testing.
+give a class to the paragraph.
+clear:left on paragraph so that all the text goes below the image and only the heading is there in the side of image.
+
+
+use float only for wrapping text around images and not for positioning other things . for positioning use relative,absolute,etc.
+*/
